@@ -1,0 +1,17 @@
+body {
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.watch-it-logo {
+  width: 250px;
+  height: auto;
+}

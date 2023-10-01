@@ -1,0 +1,24 @@
+.trending-results-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.trending-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 20px;
+}
+
+.trending-results-container-movies {
+  flex: 1;
+}
+
+.trending-results-container-tv-shows {
+  flex: 1; /* Expand to fill available space */
+}

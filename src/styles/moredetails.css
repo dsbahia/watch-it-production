@@ -1,0 +1,27 @@
+.more-details-link:hover {
+   text-decoration: underline;
+}
+
+.more-details-container {
+    padding-top: 10px;
+    text-align: left;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 3.5px;
+    margin-top: 10px;
+}
+
+.more-details-item {
+    margin: 5px;
+}
+
+.more-details-overview {
+    margin: 5px;
+    text-align: center;
+}
+
+.more-details-extra {
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 3.5px;
+}

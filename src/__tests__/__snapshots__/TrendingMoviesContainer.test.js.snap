@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrendingMoviesContainer Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="movie-list"
+  >
+    <div
+      class="trending-movie-title"
+    >
+      Trending Movies In The Last Day
+    </div>
+  </div>
+</DocumentFragment>
+`;

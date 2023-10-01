@@ -1,0 +1,56 @@
+.search-card {
+  flex-direction: column;
+}
+
+.poster-card {
+  flex: 0 0 auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.poster-img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-icon-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.poster-card:hover .youtube-icon-overlay {
+  opacity: 1;
+}
+
+.title-card {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.more-details {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.more-details-link {
+  text-decoration: none;
+  color: #00adb5;
+  background: none;
+  border: none;
+}
+
+.icon {
+  margin-left: 5px;
+  font-size: 1rem;
+  color: #00adb5;
+}
+
+.poster-card:hover {
+  opacity: 0.9;
+}

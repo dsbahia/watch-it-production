@@ -1,0 +1,6 @@
+@media screen and (max-width: 414px) {
+  /* Apply styles for iPhones here */
+  body {
+    display: none;
+  }
+}

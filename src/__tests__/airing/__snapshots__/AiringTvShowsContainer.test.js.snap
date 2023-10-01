@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AiringTvShowsContainer matches the snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <a
+      href="/"
+    >
+      <img
+        alt="Watch It Logo"
+        class="watch-it-logo"
+        src="watch-it.png"
+      />
+    </a>
+    <div
+      class="top-rated-container"
+      data-testid="tv-list"
+    >
+      <div
+        class="top-rated-movie-title"
+      >
+        Airing Tv Shows
+      </div>
+      <div
+        class="top-rated-results"
+      />
+       
+    </div>
+  </div>
+</DocumentFragment>
+`;

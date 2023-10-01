@@ -1,0 +1,55 @@
+.verify-email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.verify-email-contents {
+  background-color: #ffffff; 
+  border: 1px solid #e0e0e0; 
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+.verify-email-contents h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.verify-email-contents p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.verify-email-contents strong {
+  font-weight: bold;
+}
+
+.verify-email-contents button {
+  background-color: #00adb5; 
+  color: #ffffff; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.verify-email-contents button:disabled {
+  background-color: #d3d3d3; 
+  cursor: not-allowed;
+}
+
+.verify-email-contents button:disabled:hover {
+  background-color: #d3d3d3; 
+  cursor: not-allowed;
+}
+
+.verify-email-contents button:hover {
+  background-color: #0098a6; 
+}

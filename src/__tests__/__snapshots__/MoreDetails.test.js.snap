@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreDetails renders  correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="more-details-container"
+  >
+    <div
+      class="more-details-overview"
+    />
+    <div
+      class="more-details-item"
+    >
+      Budget information not available
+    </div>
+    <div
+      class="more-details-item"
+    >
+      Revenue information not available
+    </div>
+    <div
+      class="more-details-item"
+    >
+      Genres:
+      <div />
+    </div>
+    <div
+      class="more-details-item"
+    >
+      Release  Date: undefined
+    </div>
+    <div
+      class="more-details-item"
+    >
+      Rating: 
+    </div>
+    <div
+      class="more-details-item"
+    >
+      Runtime: undefined minutes
+    </div>
+  </div>
+</DocumentFragment>
+`;
