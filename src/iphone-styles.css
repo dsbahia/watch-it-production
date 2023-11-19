@@ -1,6 +1,83 @@
-@media screen and (max-width: 414px) {
-  /* Apply styles for iPhones here */
+/* Media query for iPhones or devices with smaller screens */
+@media only screen and (max-width: 600px) {
   body {
-    display: none;
+    font-size: 14px;
+  }
+
+  .trending-results-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trending-results-container-movies,
+  .trending-results-container-tv-shows {
+    flex: 1;
+  }
+
+  .nav-link {
+    margin-right: 5px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .footer-content {
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 80px;
+  }
+  .top-rated-results {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-rated-movie-title,
+  .top-rated-title {
+    text-align: center;
+  }
+
+  .top-rated-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .overview-card {
+    font-size: 12px;
+  }
+
+  .more-details-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .footer-logo img {
+    width: 80px;
+    margin-bottom: 5px;
+  }
+
+  .footer-links a {
+    margin-bottom: 5px;
+  }
+
+  .tmdb-info,
+  .team-info {
+    font-size: 12px;
+  }
+  .search-input {
+    width: 75%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .search-input,
+  .search-button {
+    display: inline-block;
   }
 }
