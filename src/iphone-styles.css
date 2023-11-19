@@ -40,44 +40,68 @@
   }
 
   .top-rated-item {
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+
+  .overview-card {
+    font-size: 12px; 
+  }
+
+  .more-details-link {
+    display: block; 
+    text-align: center;
+    margin-top: 10px; 
+  }
+
+  footer {
+    height: auto; 
+  }
+
+  .footer-logo img {
+    width: 80px; 
+    margin-bottom: 5px; 
+  }
+
+  .footer-links a {
+    margin-bottom: 5px; 
+  }
+
+  .tmdb-info,
+  .team-info {
+    font-size: 12px; 
+  }
+  .search-input {
+    width: 75%; 
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+  }
+  .search-input,
+  .search-button {
+    display: inline-block;
+  }
+  .search-results-card,
+  .search-card {
     width: 100%;
-    margin-bottom: 10px;
+    margin: 10px 0;
+  }
+
+  .item {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px; 
+  }
+
+  .title-card {
+    font-size: 16px; 
+    margin-bottom: 8px; 
   }
 
   .overview-card {
     font-size: 12px;
   }
 
-  .more-details-link {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  footer {
-    height: auto;
-  }
-
-  .footer-logo img {
-    width: 80px;
-    margin-bottom: 5px;
-  }
-
-  .footer-links a {
-    margin-bottom: 5px;
-  }
-
-  .tmdb-info,
-  .team-info {
-    font-size: 12px;
-  }
-  .search-input {
-    width: 75%;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  .search-input,
-  .search-button {
-    display: inline-block;
+  .no-results-message {
+    font-size: 18px;
   }
 }
